@@ -19,7 +19,7 @@ public class Emplojee {
             throw new FieldLengthLimitException("Too much symbols in surname!");
         }
         else{
-            this.surname = name;
+            this.surname = surname;
         }
 
         if (salary < 0 ){
@@ -32,6 +32,6 @@ public class Emplojee {
     }
 
     void printEmployee(){
-        System.out.println("ID:" + id + " name: " + name + " surname: " + surname + " salary " + salary);
+        System.out.println("ID:" + id + " name: " + name + " surname: " + surname + " salary: " + salary);
     }
 }
