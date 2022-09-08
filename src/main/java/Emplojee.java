@@ -22,7 +22,7 @@ public class Emplojee {
             this.surname = name;
         }
 
-        if (salary <=0 ){
+        if (salary < 0 ){
             throw new IncorrectSalaryException("Salary < 0");
         }
         else{
