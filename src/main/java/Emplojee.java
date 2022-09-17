@@ -1,4 +1,4 @@
-public class Emplojee {
+ class Emplojee {
     private int id ;
     private static int nextid = 0;
     private String name;
